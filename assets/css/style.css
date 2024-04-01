@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fjalla+One&family=Noto+Sans:ital@0;1&family=Urbanist:ital@0;1&display=swap');
+
+.header {
+	position: relative;
+}
+header .navbar{
+	 position: fixed; 
+	 width: 100%;
+}
+.banner-home {
+	position: relative;
+}
+.banner-home .container-fluid {
+	position: fixed;
+	top: 20%;
+}
+
+.navbar-nav {
+    gap: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.036px;
+}
+
+
+.banner-home h2 {
+	font-size: 88px;
+}
+.banner-home p {
+	margin-top:35px;
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 24px;
+}
+.who-we-are {
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	background: var(--Accent-Color, #3B87AC);
+	box-shadow: -20px -4px 20px 0px rgba(0, 0, 0, 0.20);
+	position: relative;
+	z-index: 101;
+}
+.banner-home2{
+	padding-bottom: 223px;
+}
+.contain{
+	display: flex;
+}
+.contain2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    padding: 40px 0px;
+    width: 100%; 
+    margin: 0 auto;
+	position:relative;
+}
+.text1 h2{
+	margin-top:150px;
+	color: var(--White, #FFF);
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.048px;
+}
+.text1.text-right {
+	text-align: right;
+}
+.text2{
+	margin-top:150px;
+	padding-right: 10%;
+}
+.text2 h2 {
+	color: var(--White, #FFF);
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 0.12px;
+}
+.text2 p {
+	color: var(--White, #FFF);
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 32px;
+	line-height: normal;
+	letter-spacing: 0.12px;
+}
+.text3{
+	color: var(--White, #FFF);
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.048px;
+}
+.seemore{
+	height:55px;
+	border-radius: 4px;
+	border: 1px solid var(--White, #FFF);
+	background: transparent;
+	color: var(--White, #FFF);
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.03px;
+
+}
+.container1{
+	width:50%;
+}
+.container2{
+	width:50%;
+	margin-top:150px;
+}
+ .wrap {
+    padding: 40px;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 48px; 
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 83%;
+}
+.title{
+	margin-top:10px;
+	color: var(--Body, #3D3D3D);
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.072px;
+}
+.title2{
+	color: var(--Accent-Color, #3B87AC);
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.12px;
+}
+.desc{
+	margin-top:10px;
+	color: var(--Body, #3D3D3D);
+	align-self: stretch;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.036px;
+}
+.card-choose-us {
+	position: relative;
+	z-index: 102;
+	background: white;
+}
+
+.card-choose-us .container {
+	position: relative;
+	top: -80px;
+}
+
+.financial-success{
+	padding: 100px 40px;
+	gap: 320px;
+	height: 1000px;
+	position:relative;
+	background-color: white;
+}
+
+.financial-success h2{
+	color: var(--Title, #121212);
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.12px;
+}
+
+.financial-success p{
+	color: var(--Body, #3D3D3D);
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.048px;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.card-img-top {
+	max-width: 300px;
+	margin: 30px;
+}
+
+.banner-image{
+	position: relative;
+	background-color: white;
+}
+
+.banner-image img{
+	width: 75%;
+}
+
+.services{
+	position: relative;
+	height:380px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	align-self: stretch;
+	background: white;
+}
+
+.services h2 {
+	margin-top: 100px;
+	color: var(--Title, #121212);
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.12px;
+}
+
+.services p {
+	color: var(--Body, #3D3D3D);
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.048px;
+}
+
+.services-img{
+	display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		background-color: white;
+		position: relative;
+}
+
+.component{
+ height: 200px;
+}
+
+.accounting-section {
+	background-image: url('/assets/images/Frame 502.png');
+	height: 1000px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.tax-section {
+	height: 1000px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.business-section {
+	height: 1000px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.other-section {
+	height: 1000px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	color: #fff;
+
+}
+
+.financial{
+	height: 600px;
+	/* display: flex; */
+	background: white;
+	position:relative;
+	background-image: url('/assets/images/CTA.png');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer{
+	height: 300px;
+	position: relative;
+	background-color: white;
+}
+
+.footer .row {
+	background: white;
+}
+
+.show-mobile {
+	display: none;
+}
+
+.show-desktop {
+	display: block;
+}
+
+.our-service .card img,.our-service .card {
+	border-radius: 15px;
+}
+
+.our-service .template h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 48px;
+}
+.our-service .template p {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 24px;
+}
+.our-service .card .template {
+	position: absolute;
+	left: 15%;
+}
+
+.our-service .card .template .title {
+	font-size: 32px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.our-service .card .template .desc {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+.our-service .card .template .title-black {
+	font-size: 32px;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+}
+
+.our-service .card .template .desc-black {
+	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	color: black;
+}
+
+.our-service .card {
+	height: 700px;
+	border:1px solid white;
+}
+.our-service .hoveer-design {
+	background-repeat: repeat;
+    background-position: top;
+    background-size: cover;
+    height: 700px;
+}
+
+.our-service .card .not-hover {
+	background-color: white;
+	height: 700px;
+}
+
+.our-service .card .hoveer-design {
+	display: none;
+}
+
+.our-service .card:hover .hoveer-design {
+	display: block;
+}
+
+.our-service .card:hover .not-hover {
+	height: unset;
+}
+
+.our-service .card.active .hoveer-design {
+	display: block;
+}
+
+.our-service .card.active .not-hover {
+	height: unset;
+}
+
+.rute-report {
+	position: relative;
+	background: white;
+	text-align: center;
+}
+
+.rute-report img {
+	width: 70%;
+}
+
+@media screen and (max-width: 680px) {
+	.services h2 {
+		font-size: 28px;
+	}
+	.services p {
+		font-size: 16px;
+	}
+	.who-we-are {
+		border-top-left-radius: 100px;
+		border-top-right-radius: 100px;
+	}
+	.who-we-are .text2 {
+		margin-top: 28px;
+	}
+	.banner-home {
+		min-height: 800px !important;
+	}
+	.banner-home h2 {
+	    font-size: 32px;
+	}
+	.wrap .title {
+		font-size: 28px;
+	}
+	.wrap .desc {
+		font-size: 16px;
+	}
+	.services {
+		height: 300px;
+	}
+	.wrap .title2 {
+		font-size: 28px;
+	}
+	.text2 h2 {
+		font-size: 28px;
+	}
+	.text2 p {
+		font-size: 16px;
+	}
+	.banner-home2 {
+		padding-bottom: 40px;
+	}
+	.banner-home {
+		background-image: none !important;
+	}
+	.banner-home img {
+		width: 80%;
+	}
+	.banner-home .container-fluid {
+		top: 13%;
+	}
+	.banner-home {
+		height: 800px;
+	}
+	.text1.text-right {
+		text-align: center;
+	}
+	.text1 h2 {
+		margin-top: 102px;
+	}
+	.card-choose-us .container {
+		top: unset;
+	}
+	.fs-42 {
+		font-size: 42px;
+	}
+	.fc-white {
+		color: white;
+	}
+	.show-mobile {
+		display: block;
+	}
+	.show-desktop {
+		display: none;
+	}
+	.our-service .card {
+		height: unset;
+	}
+}
+
+.contact-us {
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	background: #3b87ac;
+	position: relative;
+	color: white;
+}
+
+.contact-us h2{
+
+	color: var(--White, #FFF);
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 0.12px;
+}
+
+section h2 {
+	font-family: 'Fjalla One', sans-serif;
+}
+section p
+
+.contact-us p{
+	font-family: 'Noto Sans', sans-serif;
+	color: var(--White, #FFF);
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.048px;
+}
+
+.contact-header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.contact-content {
+	display: flex;
+}
+
+.contact-form {
+	flex: 1;
+}
+.contact-info {
+	flex: 1;
+}
+
+.contact-image img {
+	width: 100%;
+	height: auto;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+	padding: 10px;
+	border: 1px solid var(--White, #FFF);
+	border-radius: 4px;
+	color: #FFF;
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+
+button {
+	padding: 10px 20px;
+	width: 40%;
+	background-color: transparent;
+	color: #FFF;
+	border: 1px solid var(--White, #FFF);
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+	background-color: #FFF;
+	color: #3B87AC;
+}
+
+.our-service {
+	z-index: 101;
+	position: relative;
+	background: white;
+}
+
+@media screen and (max-width: 768px) {
+	.contact-header .desc {
+		max-width: 400px; 
+		display: inline-block;
+	}
+	.contact-form .form-p {
+		text-align: center;
+	}
+	.contact-us h2 {
+		font-size: 40px;
+	}
+	
+	.contact-us p {
+		font-size: 16px;
+	}
+	.contact-us {
+		padding: 10px;
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+
+	.contact-content {
+		flex-direction: column;
+	}
+
+	.contact-info,
+	.contact-form {
+		order: initial;
+		text-align: start;
+	}
+
+	.contact-form {
+		margin-top: 20px;
+	}
+}
+
+
+.icon-list {
+	margin-right: 5px;
+}
+.footer p {
+	font-family: 'Urbanist', sans-serif;
+}
+.footer a{
+	text-decoration: unset;
+	color: #6c757d !important;
+	font-family: 'Urbanist', sans-serif;
+}
+.footer h6 {
+	font-family: 'DM Serif Display', serif;
+	font-size: 20px;
+}
+
