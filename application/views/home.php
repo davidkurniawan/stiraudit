@@ -1,153 +1,96 @@
 <style type="text/css">
-.banner-home {
-	background-image: url('<?php echo IMAGES.'home/banner-home.png' ?>');
-	min-height: 700px; 	
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-/*.banner-home img {
-	position: fixed;
-}*/
+	.banner-home .position-relative img {
+		position: absolute;
+		top: -185px;
+		right: 0;
+	}
 </style>
-<section class="banner-home">
-	<div class="container-fluid">
+<section class="banner-home mt-5 mb-5">
+	<div class="position-relative">
+		<img src="<?php echo ASSETS.'images/home/bg-home.png' ?>">
+	</div>
+	<div class="container" style="position:relative;">
 		<div class="row">
 			<div class="col-lg-8">
-				<h2>Secure Your Future with Expert Financial Guidance</h2>
+				<button type="button" class="btn btn-primary" style="background-color: #275411;border-radius: 25px;">
+				  We can help you
+				</button>
+				<h2 class="mt-3">Achieve Success in Compliance and Regulatory Requirements with Expert Auditors.</h2>
+				<p>Our team of experienced professionals is dedicated to ensuring the accuracy and compliance of your financial records, giving you peace of mind and valuable insights to make informed decisions.</p>
+				<button class="btn btn-secondary" style="background-color:#90B67E;">Schedule Consultation</button>
 			</div>
-			<img src="<?php echo IMAGES.'banner-hp.png' ?>" class="show-mobile">
 			<div class="col-lg-4">
-				<p>We will guide you through the complex world of finance, helping you make informed decisions that pave the way for a brighter, more prosperous future.</p>
+				<img src="<?php echo ASSETS.'images/home/banner-home.png' ?>" class="img-fluid">
 			</div>
+			<div class="col-lg-12"></div>
 		</div>
 	</div>
 </section>
 
-<section class="who-we-are">
-	<div class="banner-home2">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-4 col-md-12 text1 text-right">
-					<h2>Who We Are</h2>
-				</div>
-				<div class="col-lg-8 col-md-12 text2">
-					<h2>Your Trusted Partner for Financial and Accounting Solutions</h2>
-					<p>Stirling is a leading financial and accounting consultancy firm, dedicated to providing tailored solutions that empower our clients to make informed decisions and secure their financial future. With a team of highly skilled and experienced professionals, we've been serving clients from diverse industries for over two decades.</p>
-					<button class="seemore">See more</button>
-				</div>
-				<div class="show-mobile col-md-12 text-center mt-5">
-					<h2 class="fs-42 fc-white">Why <br>Choose Us</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="card-choose-us">
+<section class="trusted-partners mt-5 mb-5">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="wrap">
-					<div class="icon"><img src="/assets/images/Person outline.png" alt=""></div>
-					<div class="title">Expert Guidance</div>
-					<div class="desc">Our seasoned financial experts are your trusted knowledge source.</div>
-				</div>
+			<div class="col-12 col-lg-5">
+				<img src="<?php echo ASSETS.'images/home/trusted-part.png' ?>" class="img-fluid">
 			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="wrap">
-					<div class="icon"><img src="/assets/images/Insert chart outlined.png" alt=""></div>
-					<div class="title">Proven Results</div>
-					<div class="desc">Countless success stories speak for our expertise.</div>
+			<div class="col-12 col-lg-7">
+				<div class="height-100">
+					<h3>Your Trusted Partner in Audits</h3>
+					<p>At Stirling Auditors, we're dedicated to setting the gold standard in auditing services. With over a decade of combined experience, our team ensures precision and reliability in every audit we undertake. Whether it's SMSF audits, External Examination of Legal Practices Trust, or reviews for small/medium Associations/Charities, we prioritize accuracy and transparency to safeguard your integrity and professional standards.</p>
+					<p>We believe in fostering strong client relationships built on trust and professionalism. At Stirling Auditors, we're not just auditors – we are your partners in navigating the complexities of professional and statutory compliance. With our unwavering commitment to excellence, rest assured, your organization is in expert hands.</p>
+					
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="wrap">
-					<div class="icon"><img src="/assets/images/Person outline.png" alt=""></div>
-					<div class="title">Tailored Solutions</div>
-					<div class="desc">Customized strategies for your unique goals.</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 show-desktop">
-				<div class="wrap">
-					<div class="title2">Why Choose Us</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="wrap">
-					<div class="icon"><img src="/assets/images/Attach money.png" alt=""></div>
-					<div class="title">Financial Clarity</div>
-					<div class="desc">Simplifying complexity for confident decisions.</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="wrap">
-					<div class="icon"><img src="/assets/images/Work outline.png" alt=""></div>
-					<div class="title">Peace of Mind</div>
-					<div class="desc">Let us handle your financial, so you can focus on what truly matters.</div>
-				</div>
+				<div class="position-relative">
+						<img src="<?php echo ASSETS.'images/home/ttd.png' ?>">
+					</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="rute-report">
-	<img src="<?php echo IMAGES.'home/rute-report.png' ?>" class="img-fluid">
-</section>
-
-<section class="services">
+<section class="review pb-5 pt-5">
 	<div class="container">
 		<div class="row">
-	        <div class="col-lg-12 col-md-12 text-center">
-	            <h2>Our Services</h2>
-	            <p>Stirling Partners offers a range of service offerings to individuals, small business, family groups and SMSFs. We are passionate about our work and strive to deliver excellence in our service.</p>
-	        </div>
-	    </div>
-	</div>
-</section>
-<section class="our-service show-desktop">
-		<div class="row" style="padding: unset;">
-			<div class="col-lg-3 col-sm-12" style="padding:unset;">
-				<div class="card active justify-content-center">
-					<div class="not-hover"></div>
-					<div class="hoveer-design" style="background-image: url('<?php echo IMAGES.'home/web-1.png' ?>');"></div>
-					<div class="template">
-						<h3 class="title-desktop">Accounting</h3>
-						<p class="desc-desktop">Know your number, know <br>your business</p>
+			<div class="col-12 col-lg-5">
+				<h2>Reviews, Audit & External Examinations</h2>
+				<p>Navigate the complexities of professional and statutory compliance with confidence. Our expert audits delivery clarity, security and informed decision-making for SMSFs, Small/Medium Associations/Charities and Legal Practices.</p>
+			</div>
+			<div class="col-12 col-lg-7">
+				<img src="<?php echo ASSETS.'images/home/review.png' ?>" class="img-fluid">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<div class="card" style="">
+					<h5 class="card-title">Self-Managed Superannuation Fund (SMSF) Audits</h5>
+					<div class="card-body">
+						<p>Our audit team works alongside SMSF Accountants and Trustees to deliver an efficient service, whilst ensuring that their SMSFs are fully compliant.</p>
+						<p>Our SMSF auditor En Khong CA is an ASIC Registered SMSF Auditor (No. 100092377).</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-12" style="padding:unset;">
-				<div class="card justify-content-center">
-					<div class="not-hover"></div>
-					<div class="hoveer-design" style="background-image: url('<?php echo IMAGES.'home/web-2.png' ?>');"></div>
-					<div class="template">
-						<h3 class="title-desktop">Accounting</h3>
-						<p class="desc-desktop">Know your number, know <br>your business</p>
+			<div class="col-12 col-lg-4">
+				<div class="card" style="">
+					<h5 class="card-title">Legal Practice Trust Account Examinations</h5>
+					<div class="card-body">
+						<p>A law practice that holds a trust account must appoint an External Examiner annually. The External Examiners Report must be lodged with the Board by 31 May each year.</p>
+						<p>Our External Examiner for The Legal Practice Board of Western Australia is En Khong CA (ID 47398). He can be appointed as an EE for legal practices in NSW, Victoria and WA</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-12" style="padding:unset;">
-				<div class="card justify-content-center">
-					<div class="not-hover"></div>
-					<div class="hoveer-design" style="background-image: url('<?php echo IMAGES.'home/web-3.png' ?>');"></div>
-					<div class="template">
-						<h3 class="title-desktop">Accounting</h3>
-						<p class="desc-desktop">Know your number, know <br>your business</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-sm-12" style="padding:unset;">
-				<div class="card justify-content-center">
-					<div class="not-hover"></div>
-					<div class="hoveer-design" style="background-image: url('<?php echo IMAGES.'home/web-4.png' ?>');"></div>
-					<div class="template">
-						<h3 class="title-desktop">Accounting</h3>
-						<p class="desc-desktop">Know your number, know <br>your business</p>
+			<div class="col-12 col-lg-4">
+				<div class="card" style="">
+					<h5 class="card-title">Small/Medium Charities & T1/2 Association Reviews</h5>
+					<div class="card-body">
+						<p>Our team works closely with Tier 1 and 3 Associations to ensure that its financial statements are reviewed or audited prior to it being submitted to the annual general meeting each year.</p>
+						<p>We also work with small and medium charities to review their financial report annually.</p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 </section>
+
 <section class="our-service show-mobile">
 	<div class="container-fluid">
 		<div class="row">
@@ -207,12 +150,12 @@
 	<div class="contact-content">
 		<div class="contact-info">
 		<div class="contact-image">
-			<img src="/assets/images/contact_us.png" alt="Contact Image">
+			<img src="<?php echo BASEURL ?>assets/images/contact_us.png" alt="Contact Image">
 		</div>
 		</div>
 		<div class="contact-form">
 		<form id="contactForm"> 
-		<p class="form-p">Send us your details and our team will contact you as soon as possible</p>
+		<p class="form-p f-24">Send us your details and our team will contact you as soon as possible</p>
 			<div class="form-group">
 				<label for="name">Name</label>
 				<input type="text" id="name" name="name" required>

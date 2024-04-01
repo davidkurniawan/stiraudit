@@ -36,17 +36,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         	<div class="container-fluid">
            	 <a class="navbar-brand" href="#"><img src="<?php echo IMAGES.'home/' ?>logo.png" alt=""></a>
             	<div class="collapse navbar-collapse" id="navbarText">
-                <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">People</a>
+                        <a class="nav-link" aria-current="page" href="#">PEOPLE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Service</a>
+                        <a class="nav-link" href="#">PASSION</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#">PROFESSIONALISM</a>
                     </li>
-                </ul> -->
+                </ul>
            	 </div>
         	</div>
     	</nav>
