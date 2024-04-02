@@ -35,7 +35,7 @@
 			</div>
 			<div class="col-12 col-lg-7">
 				<div class="height-100">
-					<h3>Your Trusted Partner in Audits</h3>
+					<h2>Your Trusted Partner in Audits</h2>
 					<p>At Stirling Auditors, we're dedicated to setting the gold standard in auditing services. With over a decade of combined experience, our team ensures precision and reliability in every audit we undertake. Whether it's SMSF audits, External Examination of Legal Practices Trust, or reviews for small/medium Associations/Charities, we prioritize accuracy and transparency to safeguard your integrity and professional standards.</p>
 					<p>We believe in fostering strong client relationships built on trust and professionalism. At Stirling Auditors, we're not just auditors – we are your partners in navigating the complexities of professional and statutory compliance. With our unwavering commitment to excellence, rest assured, your organization is in expert hands.</p>
 					

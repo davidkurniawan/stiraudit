@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fjalla+One&family=Noto+Sans:ital@0;1&family=Urbanist:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+h1,h2,h3, .card-title {
+	font-family: "Crete Round", serif;
+}
+p,button {
+    font-family: 'Noto Sans', sans-serif;
+}
 .header {
 	position: relative;
 }
 
 
-.banner-home {
+.banner-home {;
 	position: relative;
 }
 
@@ -15,7 +22,7 @@
 
 .navbar-nav .nav-link {
     color: black;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: "Crete Round", serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -67,7 +74,7 @@
 }
 .text2 h2 {
 	color: var(--White, #FFF);
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 	font-size: 64px;
 	font-style: normal;
 	font-weight: 800;
@@ -76,7 +83,7 @@
 }
 .text2 p {
 	color: var(--White, #FFF);
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 	font-size: 32px;
 	line-height: normal;
 	letter-spacing: 0.12px;
@@ -124,7 +131,7 @@
 .title{
 	margin-top:10px;
 	color: var(--Body, #3D3D3D);
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 	font-size: 48px;
 	font-style: normal;
 	font-weight: 400;
@@ -134,7 +141,7 @@
 .title2{
 	color: var(--Accent-Color, #3B87AC);
 	text-align: center;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 400;
@@ -179,7 +186,7 @@
 .financial-success h2{
 	color: var(--Title, #121212);
 	text-align: center;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 	font-size: 80px;
 	font-style: normal;
 	font-weight: 400;
@@ -235,7 +242,7 @@
 	margin-top: 100px;
 	color: var(--Title, #121212);
 	text-align: center;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 400;
@@ -341,7 +348,7 @@
 }
 
 .our-service .template h3 {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 	font-size: 48px;
 }
 .our-service .template p {
@@ -356,7 +363,7 @@
 .our-service .card .template .title {
 	font-size: 32px;
 	color: white;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 }
 
 .our-service .card .template .desc {
@@ -367,7 +374,7 @@
 
 .our-service .card .template .title-black {
 	font-size: 32px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 	color: black;
 }
 
@@ -513,16 +520,15 @@
 .contact-us h2{
 
 	color: var(--White, #FFF);
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 	font-size: 48px;
 	font-style: normal;
-	font-weight: 800;
 	line-height: normal;
 	letter-spacing: 0.12px;
 }
 
 section h2 {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: "Crete Round", serif;
 }
 section p
 
