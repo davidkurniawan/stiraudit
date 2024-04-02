@@ -172,9 +172,7 @@ p,button {
 	bottom: 0;
 	right: 0;
 }
-.height-100 {
-	height: 100%;
-}
+
 .financial-success{
 	padding: 100px 40px;
 	gap: 320px;
@@ -451,9 +449,25 @@ p,button {
 .f-24 {
 	font-size: 24px;
 }
+.height-100 {
+	height: 100%;
+}
+.navbar-toggler {
+	z-index: 1;
+}
 @media screen and (max-width: 680px) {
 	.services h2 {
 		font-size: 28px;
+	}
+	.height-100 {
+		height: unset;
+	}
+	.trusted-partners .position-relative img {
+		position: unset;
+		max-width: 100%;
+	}
+	.review {
+		padding: unset;
 	}
 	.services p {
 		font-size: 16px;

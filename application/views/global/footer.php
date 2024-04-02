@@ -5,7 +5,7 @@
     <div class="container text-center text-md-start pt-5">
       <div class="row">
         <div class="col-md-12 col-lg-6 mb-4 text-left">
-          <img src="/assets/images/home/logo.png" alt="">
+          <img src="<?php echo BASEURL ?>assets/images/home/logo.png" alt="">
           <p >
             A leading accounting consultancy firm committed <br>to delivering customized solutions that empower <br>our clients to make well-informed decisions and <br>safeguard their financial future
           </p>
@@ -22,7 +22,7 @@
 
         <div class="col-md-12 col-lg-3 mx-auto mb-md-0 mb-4">
           <h6 class=" fw-bold mb-4">Social</h6>
-          <div class="d-flex">
+          <div class="d-flex justify-content-sm-start justify-content-center">
             <div class="icon-list"><a href="#"><img src="<?php echo ASSETS.'images/icon-ig.png' ?>"></a></div>
             <div class="icon-list"><a href="#"><img src="<?php echo ASSETS.'images/icon-fb.png' ?>"></a></div>
             <div class="icon-list"><a href="#"><img src="<?php echo ASSETS.'images/icon-linked.png' ?>"></a></div>

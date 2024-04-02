@@ -34,7 +34,7 @@
 				<img src="<?php echo ASSETS.'images/home/trusted-part.png' ?>" class="img-fluid">
 			</div>
 			<div class="col-12 col-lg-7">
-				<div class="height-100">
+				<div class="height-100 mt-5 mt-lg-0">
 					<h2>Your Trusted Partner in Audits</h2>
 					<p>At Stirling Auditors, we're dedicated to setting the gold standard in auditing services. With over a decade of combined experience, our team ensures precision and reliability in every audit we undertake. Whether it's SMSF audits, External Examination of Legal Practices Trust, or reviews for small/medium Associations/Charities, we prioritize accuracy and transparency to safeguard your integrity and professional standards.</p>
 					<p>We believe in fostering strong client relationships built on trust and professionalism. At Stirling Auditors, we're not just auditors – we are your partners in navigating the complexities of professional and statutory compliance. With our unwavering commitment to excellence, rest assured, your organization is in expert hands.</p>
@@ -55,11 +55,11 @@
 				<h2>Reviews, Audit & External Examinations</h2>
 				<p>Navigate the complexities of professional and statutory compliance with confidence. Our expert audits delivery clarity, security and informed decision-making for SMSFs, Small/Medium Associations/Charities and Legal Practices.</p>
 			</div>
-			<div class="col-12 col-lg-7">
+			<div class="col-12 col-lg-7 mt-5 mt-lg-0">
 				<img src="<?php echo ASSETS.'images/home/review.png' ?>" class="img-fluid">
 			</div>
 		</div>
-		<div class="row">
+		<div class="row mt-5 mt-lg-0">
 			<div class="col-12 col-lg-4">
 				<div class="card" style="">
 					<h5 class="card-title">Self-Managed Superannuation Fund (SMSF) Audits</h5>
@@ -91,48 +91,6 @@
 	</div>
 </section>
 
-<section class="our-service show-mobile">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-12 mt-3 mb-3">
-				<div class="card justify-content-center">
-					<img src="<?php echo IMAGES.'home/web-1.png' ?>" class="img-fluid">
-					<div class="template">
-						<h3 class="title">Accounting</h3>
-						<p class="desc">Know your number, know <br>your business</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 mt-3 mb-3">
-				<div class="card justify-content-center">
-					<img src="<?php echo IMAGES.'home/web-2.png' ?>" class="img-fluid">
-					<div class="template">
-						<h3 class="title">Tax Compliance</h3>
-						<p class="desc">Up-to-date understanding for<br>optimum choice</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 mt-3 mb-3">
-				<div class="card justify-content-center">
-					<img src="<?php echo IMAGES.'home/web-3.png' ?>" class="img-fluid">
-					<div class="template">
-						<h3 class="title">TAX & BUSINESS ADVISORY</h3>
-						<p class="desc">Tools and techniques to<br>make it achievable</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 mt-3 mb-3">
-				<div class="card justify-content-center">
-					<img src="<?php echo IMAGES.'home/web-4.png' ?>" class="img-fluid">
-					<div class="template">
-						<h3 class="title-black">OTHER SERVICES</h3>
-						<p class="desc-black">We have supplementary<br> services through sister<br> company.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 <section class="contact-us">
 	<div class="contact-header">
 		<div class="container">
